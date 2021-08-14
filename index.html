@@ -1,0 +1,167 @@
+<!doctype>
+    <html>
+
+    <head>
+        <title> CSS Course</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+            * {
+                box-sizing: border-box;
+padding:0;
+margin:0;
+box-sizing:borser-box;
+            }
+
+            body {
+                background: #ddd;
+                padding: 15px;
+                font-family: 'Handlee', cursive;
+            }
+
+            .header {
+                padding: 30px;
+                background-color: white;
+                text-align: center;
+                font-size: 3em;
+            }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+                overflow: hidden;
+            }
+
+           nav li {
+                float: left;
+            }
+            nav li a {
+                display:block;
+                text-decoration: none;
+                padding: 14px 16px;
+               
+                color: white;
+            }
+
+            nav li a:hover {
+                background-color: #111;
+            }
+
+            #top,
+            #main {
+                padding: 20px;
+            }
+
+            #top {
+                background-color: white;
+                margin: 20px;
+            }
+
+            #main main {
+                float: left;
+                width: 75%;
+                background-color: white;
+                padding: 0 10px;
+                height: 100vh;
+            }
+
+            #main aside {
+                float: left;
+                width: 25%;
+                padding-left: 20px;
+            }
+
+            #main:after {
+                clear: both;
+                display: table;
+                content: ""
+            }
+
+            .footer {
+                text-align: center;
+                background: black;
+                padding: 10px;
+                color: white;
+            }
+
+            .card {
+                background: white;
+                border: 1px solid #bbb;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            .card h2 {
+                text-transform: uppercase;
+            }
+
+            .card p {
+                padding: 5px;
+            }
+            
+            .banner cycle-slideshow img
+            {
+                margin : 50% 100%;
+            }
+
+            Fullscreen Default view 27. Webpage Project add Styling part 1 29. Webpage Project add Styling part 2
+
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <div id="logo"> <img src=""> My Website</div>
+        </header>
+        <nav>
+            <ul class="topnav">
+                <li> <a href="www.google.com"> Home</a>
+                <li> <a href="#"> About</a>
+                <li> <a href="#"> Services</a>
+                <li> <a href="#"> Contact</a>
+            </ul>
+        </nav>
+        <section id="top"> <strong> Welcome to my website</strong> </section>
+        <section id="main" class="banner cycle-slideshow">
+
+
+            <img src="leaves-5667719.jpg" width="100%" height="auto">
+            <img src="pic.png" width="100%" height="auto">
+            <img src="social-media-5187243.png" width="100%" height="auto">
+            <img src="undraw_Detailed_information_re_qmuc.png" width="100%" height="auto">
+            <main>
+                <article>
+                    <h2> Read this first</h2>
+                    <p> Lorem ipsum thsi is just dummy content</p>
+                </article>
+                <article>
+                    <h2> Second good read</h2>
+                    <p> More filler content Lorem ipsum. Lorem ipsum thsi is just dummy content.</p>
+                </article>
+                <article>
+                    <h2> Third is the best</h2>
+                    <p> Just some words here nothing to see Lorem ipsum thsi is just dummy content</p>
+                </article>
+            </main>
+            <aside>
+                <div class="card">
+                    <h2> Side 1</h2>
+                    <p> Hello world</p>
+                </div>
+                <div class="card"> Side 2</div>
+                <div class="card"> Side 3</div>
+            </aside>
+        </section>
+        <footer class="footer">
+            <p> &copy;
+                Copyright my company</p>
+            <address> Contact: <a href="mailto:my@example.com"> Contact me</a> </address>
+        </footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    </body>
+
+    </html> CSS part 1
